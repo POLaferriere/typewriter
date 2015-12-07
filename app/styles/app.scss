@@ -1,3 +1,55 @@
-// @import 'bourbon';
+@import 'bourbon';
 // @import 'neat';
-@import 'foundation';
+
+body, html, #application {
+	height: 100%;
+	margin: 0;
+}
+
+hr {
+	width: 100%;
+	position: relative;
+	top: 65px;
+}
+
+.app {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+
+	height: 100%;
+	background: #000
+}
+
+.letters {
+	display: flex;
+	justify-content: center;
+	color: rgb(57, 157, 243);
+
+	margin-top: 15%;
+}
+
+.letter-container {
+	position: absolute;
+}
+
+.letter {
+	font-size: 40px;
+}
+
+.input {
+	border-style: none;
+	color: #000;
+	background: #000;
+	&:focus {
+		outline: none;
+	}
+}
+
+.title {
+	margin-top: 100px;
+	font-family: $helvetica;
+	font-size: 30px;
+	color: #FFF;
+}

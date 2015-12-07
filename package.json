@@ -12,6 +12,7 @@
     "bourbon-neat": "^1.7.2",
     "css-loader": "^0.20.2",
     "del": "^2.0.2",
+    "dynamics.js": "0.0.8",
     "eslint": "^1.6.0",
     "file-loader": "^0.8.4",
     "gulp": "^3.8.11",
